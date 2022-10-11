@@ -1,2 +1,2 @@
-# javapragrams
-java prgrams
+# javaprograms
+java programs
