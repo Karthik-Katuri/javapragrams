@@ -12,7 +12,7 @@ class One
         while(true) {
             s = sc.nextInt();
             if (s == -1) {
-                System.out.println("sum is " + sum);
+                System.out.println("Sum value is " + sum);
                 break;
             }
             sum = sum + s;
