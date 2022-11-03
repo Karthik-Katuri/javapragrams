@@ -5,15 +5,15 @@ class Leapyear
 public static void main (String args[])
 {
 Scanner sc= new Scanner(System.in);
-system.out.println("enter a year");
+System.out.println("enter a year");
 int a = sc.nextInt();
-if(a%4==0)
+if(a%4==0 && a%400==0 && a%100!=0)
 {
-system.out.println("leap year");
+System.out.println("leap year");
 }
 else
 {
-system.out.println("not a leap year");
+System.out.println("not a leap year");
 }
 }
 }
